@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --main-color: red;
+  --form-padding-left: 20px;
+}
+body {
+  background-color: rgb(74, 65, 65);
+}
+
+.container {
+  display: flex;
+  width: 85vw;
+  height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+}
+/* Styling the picture section */
+#picture-section {
+  background-image: url("./sources/pictures/Background.jpg");
+  width: 70%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* Styling the form section */
+.form-section-component {
+  padding-left: var(--form-padding-left);
+}
+#main-text {
+  height: 30%;
+  background-color: rgb(186, 238, 249);
+  padding-bottom: 50px;
+}
+#form {
+  height: 40%;
+  background-color: azure;
+}
+
+#form-login {
+  height: 30%;
+  background-color: aliceblue;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
