@@ -9,39 +9,60 @@
   </head>
   <body>
     <div class="container">
-      <section id="picture-section"></section>
+      <section id="picture-section">
+        <!-- <img src="./sources/pictures/Background.jpg" alt="" id="picture-section_background"> -->
+        <div class="image-odin">
+          <img src="./sources/pictures/odin-lined.png" alt="" id="picture-section_odin" />
+          <p>ODIN</p>
+        </div>
+      </section>
       <section id="form-section">
-        <section id="main-text" class="form-section-component">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium deleniti maiores animi debitis quod liber ipsam itaque beatae tempora esse tenetur dolor eos, porro nam vero mollitia optio. Perspiciatis, fugit. You Want Know!!</p>
+        <section id="main-text" class="form-section_component">
+          <p>
+            This is not a real online service! You know you need something like this in your lifeto help u realizeyour deepest dreams. <br />
+            Sign up to get started now
+            <br />
+            <span id="main-text_quote">You know you Want to !!</span>
+          </p>
         </section>
-        <section id="form" class="form-section-component">
+        <section id="form" class="form-section_component">
           <form action="">
-            <p>Lets! Do it</p>
-            <fieldset>
-              <legend>Personal Details</legend>
-              <label for="">First Name</label>
-              <input type="text" />
-              <label for="">Last Name</label>
-              <input type="text" />
-            </fieldset>
-            <fieldset>
-              <legend>Contact Details</legend>
-              <label for="">E-mail</label>
-              <input type="text" />
-              <label for="">Phone Number</label>
-              <input type="number" />
-            </fieldset>
-            <fieldset>
-              <label for="">Password</label>
-              <input type="password" />
-              <label for="">Confirm Password</label>
-              <input type="password" />
-            </fieldset>
+            <p id="form_section-message">Lets! Do it</p>
+            <div class="form-section_elements">
+              <div class="form-section_elments-child_left">
+                <label for="">First Name</label>
+                <input type="text" />
+              </div>
+              <div class="form-section_elments-child_right">
+                <label for="">Last Name</label>
+                <input type="text" />
+              </div>
+            </div>
+            <div class="form-section_elements">
+              <div class="form-section_elments-child_left">
+                <label for="">E-mail</label>
+                <input type="email" />
+              </div>
+              <div class="form-section_elments-child_right">
+                <label for="">Phone Number</label>
+                <input type="number" />
+              </div>
+            </div>
+            <div class="form-section_elements">
+              <div class="form-section_elments-child_left">
+                <label for="">Password</label>
+                <input type="password" />
+              </div>
+              <div class="form-section_elments-child_right">
+                <label for="">Confirm Password</label>
+                <input type="password" />
+              </div>
+            </div>
           </form>
         </section>
-        <section id="form-login" class="form-section-component">
-          <button>CREATE ACCOUNT</button>
-          <p>Already have an account <span>Log In</span></p>
+        <section id="form-login" class="form-section_component">
+          <button>  <span class="button-text" >CREATE ACCOUNT</span> </button>
+          <p id="form-login_message">Already have an account ? <spanid id="form-login_message-span">Log In</spanid></p>
         </section>
       </section>
     </div>
